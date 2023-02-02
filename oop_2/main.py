@@ -23,3 +23,5 @@ maba2 = Maba("ily", "smkn 8 semarang", 100)
 maba3 = Maba("xaxa", "smkn 8 semarang", 100)\
 
 print(maba1.__dict__)
+
+print("program selesai")
