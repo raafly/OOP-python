@@ -1,19 +1,14 @@
-class Hero: # template
-    pass
+class Maba:
 
-hero1 = Hero() # object
-hero2 = Hero() 
-hero3 = Hero() 
+    def __int__(self, inputnama, inputkelas, inputabsen):
+        self.nama = inputnama
+        self.kelas = inputkelas
+        self.kelas = inputabsen
 
-hero1.nama = "sniper"
-hero1.health = 100
+maba1 = Maba("rafly", "x pplg 2", 29)
+maba2 = Maba("raafi", "x pplg 2", 28)
+maba3 = Maba("atwi", "x pplg 2", 30)
 
-hero2.name = "heale"
-hero2.health = 50
-
-
-hero3.health = 1000
-
-print(hero1)
-print(hero1.__dict__)
-print(hero1.nama)
+print(maba1.__dict__
+print(maba2.__dict__)
+print(maba3.__dict__)
