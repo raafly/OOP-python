@@ -11,7 +11,7 @@ hero1.health = 100
 hero2.name = "heale"
 hero2.health = 50
 
-hero3.name = "xsara"
+
 hero3.health = 1000
 
 print(hero1)
